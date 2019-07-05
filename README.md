@@ -1,2 +1,4 @@
 # steam_sinatra
-SinatraとSteamAPIのれんしゅう
+これはなに
+-----------
+SinatraとSteamAPI(とgit)のれんしゅう
