@@ -1,4 +1,3 @@
 # steam_sinatra
-これはなに
------------
+###これはなに
 SinatraとSteamAPI(とgit)のれんしゅう
