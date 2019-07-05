@@ -33,14 +33,3 @@ post '/user' do
   File.open("keys/steamid.txt", "w") { |f| f.puts(steam_id) }
   redirect '/data'
 end
-
-# get '/refresh' do
-#   Game.destroy_all
-#   File.open("keys/steamid.txt") { |f| @steam_id = f.gets }
-#   data = Steam::Player.recently_played_games(@steam_id)["games"]
-#   data.each do |d|
-#     game = Game.new(name: d["name"], appid: d["appid"], playtime_2weeks: d["playtime_2weeks"])
-#     game.save
-#   end
-#   redirect '/data'
-# end
